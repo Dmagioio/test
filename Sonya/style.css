@@ -1,0 +1,63 @@
+body{
+    background-color: red;
+}
+
+.painel{
+    margin: auto;
+    background-color: white;
+    width: 375px;
+    height: 500px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#sim{
+    height: 40px;
+    width: 60px;
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    margin-left: -70px;
+}
+#nao{
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    margin-left: 10px;
+}
+
+.hi{
+    margin-top: 200px;
+}
+
+
+.pentagram{
+   margin-left: 100px;
+   width: 400px;
+   margin-top: 1000px;
+
+}
+.pentagram-cl{
+   width: 200px;
+   height: 200px;
+}
+
+.image-link {
+   position: relative;
+   display: inline-block;
+}
+
+.image-link a {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   height: 50px;
+   width: 50px; /* Вы можете настроить высоту области, куда будет кликаться */
+}
